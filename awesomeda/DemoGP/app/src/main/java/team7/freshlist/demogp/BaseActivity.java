@@ -1,12 +1,16 @@
 package team7.freshlist.demogp;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -21,6 +25,7 @@ import team7.freshlist.demogp.requests.ServiceGenerator;
 import team7.freshlist.demogp.requests.UserApi;
 import team7.freshlist.demogp.requests.response.Api;
 import team7.freshlist.demogp.requests.response.Value;
+import team7.freshlist.demogp.userlistactivity.CreateUserActivity;
 
 public class BaseActivity extends AppCompatActivity {
     private static final String TAG = "BaseActivity";
@@ -35,8 +40,27 @@ public class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mRecyclerView = findViewById(R.id.recyclerView);
-        setSupportActionBar((Toolbar)findViewById(R.id.toolbar));
-        setTitle("UserList");
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+
+       // setSupportActionBar(toolbar);
+
+        toolbar.setTitle("UserList");
+        toolbar.inflateMenu(R.menu.menu);
+
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                if(item.getItemId() == R.id.add) {
+
+                    Intent intent = new Intent(getApplicationContext(), CreateUserActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+                return false;
+
+            }
+        });
+
 
         testRetrofitRequest();
 
@@ -109,4 +133,6 @@ public class BaseActivity extends AppCompatActivity {
 
     }
 
-}
+    }
+
+
