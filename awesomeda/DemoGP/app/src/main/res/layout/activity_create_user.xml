@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstnameid"
+        android:hint="Enter First Name"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Last Name"
+        android:textAlignment="center"
+        android:id="@+id/lastnameid"
+        android:textSize="23sp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Create user"
+        android:layout_margin="115dp"
+        android:background="@color/colorAccent"
+        />
+
+
+
+</LinearLayout>
