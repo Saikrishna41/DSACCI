@@ -3,10 +3,6 @@ package team7.freshlist.demogp.requests.response;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
-
-import team7.freshlist.demogp.models.User;
-
 public class Value {
 
     @SerializedName("id")
