@@ -1,0 +1,2 @@
+rootProject.name='MonstersApp'
+include ':app'
