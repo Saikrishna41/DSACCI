@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "792028025454",
+    "firebase_url": "https://striking-symbol-273622.firebaseio.com",
+    "project_id": "striking-symbol-273622",
+    "storage_bucket": "striking-symbol-273622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792028025454:android:aca2533a06db36e4048c7f",
+        "android_client_info": {
+          "package_name": "com.dev.ojamee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792028025454-miq685bo9p74j2m75cjrm9tmd20vm0ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJV6mRrYKySygg3OQ8b8brHPw3Gs2iB_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792028025454-miq685bo9p74j2m75cjrm9tmd20vm0ue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
