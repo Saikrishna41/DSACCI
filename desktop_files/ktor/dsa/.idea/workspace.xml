@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/../DemoProjectCodetutor/src/main/kotlin/stack/Stack.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DemoProjectCodetutor/src/main/kotlin/stack/StackImpl.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Flows/src/main/kotlin/dyson/round1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SetZerosMatrix.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringCompression.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/anagram.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/rotaeMatrix.kt" afterDir="false" />
